@@ -18,8 +18,8 @@ function App() {
     <div>
       <h1>
         <span>emojipedia</span>
-      </h1>
-      {emojipedia.map(populateEntry)}
+      </h1>    
+        {emojipedia.map(populateEntry)}      
     </div>
   );
 }
