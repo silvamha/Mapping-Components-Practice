@@ -21,8 +21,7 @@ function App() {
       </h1>    
       <dl className="dictionary">
          {emojipedia.map(populateEntry)}   
-      </dl>
-          
+      </dl>          
     </div>
   );
 }

@@ -1,8 +1,8 @@
 import React from "react";
 
 
-const Entry = (props) =>{
-return <dl className="dictionary">
+const Entry = (props) => {
+return ( 
 <div className="term">
   <dt>
     <span className="emoji" role="img" aria-label="Tense Biceps">
@@ -13,8 +13,8 @@ return <dl className="dictionary">
   <dd>
     {props.meaning}
   </dd>
-</div>
-</dl>
+</div>)
+
 }
 
 export default Entry;
