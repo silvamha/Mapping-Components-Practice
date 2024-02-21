@@ -19,7 +19,10 @@ function App() {
       <h1>
         <span>emojipedia</span>
       </h1>    
-        {emojipedia.map(populateEntry)}      
+      <dl className="dictionary">
+         {emojipedia.map(populateEntry)}   
+      </dl>
+          
     </div>
   );
 }
